@@ -2,14 +2,20 @@ import React from "react";
 import { Blog, Features, Footer, Header, Sandpark } from './containers';
 import { Navbar } from './components';
 import './App.css';
+import Imageslider from "./components/Imageslider";
+import { index } from './components/index';
 
 const App = () => {
   return (
+    
     <div className="App">
       <div className="gradient_bg">
         <Navbar />
         <Header />
       </div>
+      {/* <div className="imageslider">
+
+      </div> */}
       {/* <Sandpark />
       <Features />
       <Blog />
